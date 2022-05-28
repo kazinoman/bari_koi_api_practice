@@ -1,4 +1,5 @@
 import "./App.css";
+import ExternalStateExample from "./components/marker";
 
 import ReactLeaflet from "./components/ReactLeaflet";
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Map apps</h1>
-      <ReactLeaflet />
+      <ExternalStateExample />
     </div>
   );
 }
